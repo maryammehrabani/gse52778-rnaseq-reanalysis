@@ -1,0 +1,9 @@
+sample_id	donor	condition	geo_sample	albuterol
+SRR1039508	N61311	untreated	GSM1275862	untrt
+SRR1039509	N61311	dexamethasone	GSM1275863	untrt
+SRR1039512	N052611	untreated	GSM1275866	untrt
+SRR1039513	N052611	dexamethasone	GSM1275867	untrt
+SRR1039516	N080611	untreated	GSM1275870	untrt
+SRR1039517	N080611	dexamethasone	GSM1275871	untrt
+SRR1039520	N061011	untreated	GSM1275874	untrt
+SRR1039521	N061011	dexamethasone	GSM1275875	untrt

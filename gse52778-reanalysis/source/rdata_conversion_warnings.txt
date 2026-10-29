@@ -1,0 +1,16 @@
+Missing constructor for R class "Versions". The underlying R object is returned instead.
+Missing constructor for R class "MIAME". The underlying R object is returned instead.
+Missing constructor for R class "DFrame". The underlying R object is returned instead.
+Missing constructor for R class "SimpleList". The underlying R object is returned instead.
+Missing constructor for R class "SimpleAssays". The underlying R object is returned instead.
+Missing constructor for R class "DFrame". The underlying R object is returned instead.
+Missing constructor for R class "PartitioningByEnd". The underlying R object is returned instead.
+Missing constructor for R class "DFrame". The underlying R object is returned instead.
+Missing constructor for R class "Seqinfo". The underlying R object is returned instead.
+Missing constructor for R class "DFrame". The underlying R object is returned instead.
+Missing constructor for R class "IRanges". The underlying R object is returned instead.
+Missing constructor for R class "Rle". The underlying R object is returned instead.
+Missing constructor for R class "Rle". The underlying R object is returned instead.
+Missing constructor for R class "GRanges". The underlying R object is returned instead.
+Missing constructor for R class "CompressedGRangesList". The underlying R object is returned instead.
+Missing constructor for R class "RangedSummarizedExperiment". The underlying R object is returned instead.

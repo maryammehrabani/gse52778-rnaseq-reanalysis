@@ -1,0 +1,17 @@
+{
+  "accession": "GSE52778",
+  "package": "airway",
+  "version": "1.32.0",
+  "download_url": "https://bioconductor.uib.no/packages/3.23/data/experiment/src/contrib/airway_1.32.0.tar.gz",
+  "archive_sha256": "829f654fc8075ac9d810574e8a8d4672e69e847c45fa2ce598d1ffbc30c7fe19",
+  "counts_object": "airway (not Salmon gse)",
+  "dimensions_genes_samples": [
+    63677,
+    8
+  ],
+  "gene_annotation": "Ensembl release 75 / GRCh37.p13, as distributed in airway",
+  "assay": "raw gene-level fragment counts",
+  "extraction": "rdata 1.1.0, no changes to counts",
+  "upstream": "STAR alignment and summarizeOverlaps Union counting, as documented by airway",
+  "original_study": "Himes et al., PLoS One 2014;9:e99625; doi:10.1371/journal.pone.0099625"
+}

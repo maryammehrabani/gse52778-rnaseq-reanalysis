@@ -1,0 +1,113 @@
+Fitting size factors...
+... done in 0.01 seconds.
+
+Using None as control genes, passed at DeseqDataSet initialization
+Fitting dispersions...
+... done in 9.48 seconds.
+
+Fitting dispersion trend curve...
+... done in 0.72 seconds.
+
+Fitting MAP dispersions...
+... done in 10.10 seconds.
+
+Fitting LFCs...
+... done in 6.24 seconds.
+
+Calculating cook's distance...
+... done in 0.01 seconds.
+
+Running Wald tests...
+... done in 1.81 seconds.
+
+Fitting size factors...
+... done in 0.01 seconds.
+
+Fitting dispersions...
+... done in 8.64 seconds.
+
+Log2 fold change & Wald test p-value: condition dexamethasone vs untreated
+                    baseMean  log2FoldChange  ...    pvalue      padj
+gene_id                                       ...                    
+ENSG00000000003   710.033990       -0.385192  ...  0.000504  0.003381
+ENSG00000000419   521.213918        0.202834  ...  0.090241  0.234261
+ENSG00000000457   237.601620        0.033890  ...  0.820033  0.916593
+ENSG00000000460    58.040451       -0.094404  ...  0.731597  0.868689
+ENSG00000000971  5827.018476        0.422354  ...  0.000009  0.000089
+...                      ...             ...  ...       ...       ...
+ENSG00000273382    18.205034       -0.735328  ...  0.117237  0.283515
+ENSG00000273448    14.031905        0.058033  ...  0.907816  0.958098
+ENSG00000273472    11.086819       -0.408292  ...  0.474846  0.689291
+ENSG00000273486    15.482115       -0.154419  ...  0.748939  0.879348
+ENSG00000273487     8.175221        1.040018  ...  0.126865  0.299762
+
+[16139 rows x 6 columns]
+Fit type used for VST : parametric
+Using None as control genes, passed at DeseqDataSet initialization
+{
+  "accession": "GSE52778",
+  "analysis_status": "executed",
+  "engine": "PyDESeq2",
+  "engine_version": "0.5.4",
+  "n_samples": 8,
+  "n_donors": 4,
+  "donors": [
+    "N052611",
+    "N061011",
+    "N080611",
+    "N61311"
+  ],
+  "conditions": [
+    "untreated",
+    "dexamethasone"
+  ],
+  "design": "~ donor + condition",
+  "contrast": "dexamethasone vs untreated",
+  "design_rank": 5,
+  "residual_df": 3,
+  "input_genes": 63677,
+  "retained_genes": 16139,
+  "prefilter_removed": 47538,
+  "prefilter": ">= 10 counts in >= 4 samples",
+  "wald_null": "log2 fold change = 0",
+  "multiplicity": "Benjamini-Hochberg with independent filtering at alpha 0.05",
+  "available_pvalues": 16139,
+  "available_padj": 16139,
+  "fdr_significant": 3881,
+  "posthoc_selected": 957,
+  "posthoc_effect_filter": "absolute unshrunken log2 fold change >= 1",
+  "up": 493,
+  "down": 464,
+  "lfc_shrinkage": "none",
+  "cooks_filter": true,
+  "count_replacement": false,
+  "small_sample_note": "Four paired donors; residual df=3. PyDESeq2 warns that dispersion-prior estimation is less stable at low residual degrees of freedom.",
+  "pca": {
+    "input": "design-informed VST, top 500 variable retained genes; no batch/donor removal",
+    "PC1_percent": 48.10932940394944,
+    "PC2_percent": 23.528220337596284
+  },
+  "CRISPLD2": {
+    "ensembl_id": "ENSG00000103196",
+    "annotation_source": "airway 1.32.0 gene_name, Ensembl 75",
+    "log2FoldChange": 2.627133343875474,
+    "padj": 1.4590500581404326e-60,
+    "pvalue": 2.9833726946300437e-63,
+    "lfcSE": 0.15648800912986496,
+    "fold_change": 6.177972049345057
+  },
+  "python": "3.12.14",
+  "versions": {
+    "pydeseq2": "0.5.4",
+    "rdata": "1.1.0",
+    "numpy": "2.3.5",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.8.0",
+    "anndata": "0.13.4",
+    "formulaic": "1.2.2",
+    "matplotlib": "3.10.8"
+  },
+  "original_study": "Himes et al. 2014; doi:10.1371/journal.pone.0099625",
+  "scope": "Independent public-data reanalysis; no clinical validation; not the user's original cohort"
+}

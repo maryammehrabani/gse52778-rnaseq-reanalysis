@@ -1,0 +1,67 @@
+{
+  "accession": "GSE52778",
+  "analysis_status": "executed",
+  "engine": "PyDESeq2",
+  "engine_version": "0.5.4",
+  "n_samples": 8,
+  "n_donors": 4,
+  "donors": [
+    "N052611",
+    "N061011",
+    "N080611",
+    "N61311"
+  ],
+  "conditions": [
+    "untreated",
+    "dexamethasone"
+  ],
+  "design": "~ donor + condition",
+  "contrast": "dexamethasone vs untreated",
+  "design_rank": 5,
+  "residual_df": 3,
+  "input_genes": 63677,
+  "retained_genes": 16139,
+  "prefilter_removed": 47538,
+  "prefilter": ">= 10 counts in >= 4 samples",
+  "wald_null": "log2 fold change = 0",
+  "multiplicity": "Benjamini-Hochberg with independent filtering at alpha 0.05",
+  "available_pvalues": 16139,
+  "available_padj": 16139,
+  "fdr_significant": 3881,
+  "posthoc_selected": 957,
+  "posthoc_effect_filter": "absolute unshrunken log2 fold change >= 1",
+  "up": 493,
+  "down": 464,
+  "lfc_shrinkage": "none",
+  "cooks_filter": true,
+  "count_replacement": false,
+  "small_sample_note": "Four paired donors; residual df=3. PyDESeq2 warns that dispersion-prior estimation is less stable at low residual degrees of freedom.",
+  "pca": {
+    "input": "design-informed VST, top 500 variable retained genes; no batch/donor removal",
+    "PC1_percent": 48.10932940394944,
+    "PC2_percent": 23.528220337596284
+  },
+  "CRISPLD2": {
+    "ensembl_id": "ENSG00000103196",
+    "annotation_source": "airway 1.32.0 gene_name, Ensembl 75",
+    "log2FoldChange": 2.627133343875474,
+    "padj": 1.4590500581404326e-60,
+    "pvalue": 2.9833726946300437e-63,
+    "lfcSE": 0.15648800912986496,
+    "fold_change": 6.177972049345057
+  },
+  "python": "3.12.14",
+  "versions": {
+    "pydeseq2": "0.5.4",
+    "rdata": "1.1.0",
+    "numpy": "2.3.5",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.8.0",
+    "anndata": "0.13.4",
+    "formulaic": "1.2.2",
+    "matplotlib": "3.10.8"
+  },
+  "original_study": "Himes et al. 2014; doi:10.1371/journal.pone.0099625",
+  "scope": "Independent public-data reanalysis; no clinical validation; not the user's original cohort"
+}

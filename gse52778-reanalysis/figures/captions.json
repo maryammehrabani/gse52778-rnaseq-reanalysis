@@ -1,0 +1,14 @@
+{
+  "figures": {
+    "gse52778_pca": "PCA of design-informed VST values for the 500 most variable retained genes. Each point is one sample; lines connect matched donors. Colors distinguish untreated and dexamethasone-treated cells. Donor variation is retained. PCA is descriptive QC.",
+    "gse52778_volcano": "Dexamethasone versus untreated in a paired model (~ donor + condition), using PyDESeq2 0.5.4. The y-axis is -log10 BH-adjusted P. Colored genes satisfy BH FDR < 0.05 and an additional descriptive |unshrunken log2FC| >= 1 cutoff; the Wald test itself tests log2FC = 0.",
+    "gse52778_heatmap": "The 20 genes with the smallest BH-adjusted P-values, ordered by average-linkage clustering of row-standardized VST expression. Columns preserve the same donor order in the two treatment groups. This display uses genes selected from the same dataset and is not external validation.",
+    "gse52778_crispld2": "All eight CRISPLD2 measurements displayed as size-factor-normalized counts, with lines connecting the four donor pairs. The reported effect and BH-adjusted P come from the genome-wide paired negative-binomial model, not a separate four-pair t-test. CRISPLD2 is a previously reported glucocorticoid-responsive gene in the original study."
+  },
+  "donor_labels": {
+    "N052611": "D1",
+    "N061011": "D2",
+    "N080611": "D3",
+    "N61311": "D4"
+  }
+}

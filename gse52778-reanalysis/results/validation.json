@@ -1,0 +1,221 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-10-29T07:24:00.126999+00:00",
+  "checks": [
+    {
+      "check": "input_sha256:data/counts.tsv.gz",
+      "status": "passed"
+    },
+    {
+      "check": "input_sha256:data/samples.tsv",
+      "status": "passed"
+    },
+    {
+      "check": "input_sha256:data/gene_annotations.tsv.gz",
+      "status": "passed"
+    },
+    {
+      "check": "raw_counts_shape",
+      "status": "passed"
+    },
+    {
+      "check": "raw_nonnegative_integer_counts",
+      "status": "passed"
+    },
+    {
+      "check": "unique_sample_and_gene_ids",
+      "status": "passed"
+    },
+    {
+      "check": "sample_alignment",
+      "status": "passed"
+    },
+    {
+      "check": "balanced_donor_pairs",
+      "status": "passed"
+    },
+    {
+      "check": "no_albuterol_samples",
+      "status": "passed"
+    },
+    {
+      "check": "prefilter_identity",
+      "status": "passed"
+    },
+    {
+      "check": "all_original_genes_preserved",
+      "status": "passed"
+    },
+    {
+      "check": "paired_design_rank_and_df",
+      "status": "passed"
+    },
+    {
+      "check": "correct_contrast_encoding",
+      "status": "passed"
+    },
+    {
+      "check": "complete_inference",
+      "status": "passed"
+    },
+    {
+      "check": "valid_probability_bounds",
+      "status": "passed"
+    },
+    {
+      "check": "independent_bh_recalculation",
+      "status": "passed",
+      "detail": {
+        "maximum_absolute_difference": 0.0
+      }
+    },
+    {
+      "check": "reported_gene_totals",
+      "status": "passed"
+    },
+    {
+      "check": "lfc_fit_convergence",
+      "status": "passed"
+    },
+    {
+      "check": "normalization_matches_size_factors",
+      "status": "passed"
+    },
+    {
+      "check": "vst_finite_and_aligned",
+      "status": "passed"
+    },
+    {
+      "check": "pca_coordinates_recomputed",
+      "status": "passed"
+    },
+    {
+      "check": "pca_variance_recomputed",
+      "status": "passed"
+    },
+    {
+      "check": "heatmap_gene_selection",
+      "status": "passed"
+    },
+    {
+      "check": "heatmap_zscores_recomputed",
+      "status": "passed"
+    },
+    {
+      "check": "crispld2_gene_mapping",
+      "status": "passed"
+    },
+    {
+      "check": "crispld2_summary_matches_results",
+      "status": "passed"
+    },
+    {
+      "check": "crispld2_increases_in_every_pair",
+      "status": "passed"
+    },
+    {
+      "check": "paired_plot_value:SRR1039512",
+      "status": "passed"
+    },
+    {
+      "check": "paired_plot_value:SRR1039513",
+      "status": "passed"
+    },
+    {
+      "check": "paired_plot_value:SRR1039520",
+      "status": "passed"
+    },
+    {
+      "check": "paired_plot_value:SRR1039521",
+      "status": "passed"
+    },
+    {
+      "check": "paired_plot_value:SRR1039516",
+      "status": "passed"
+    },
+    {
+      "check": "paired_plot_value:SRR1039517",
+      "status": "passed"
+    },
+    {
+      "check": "paired_plot_value:SRR1039508",
+      "status": "passed"
+    },
+    {
+      "check": "paired_plot_value:SRR1039509",
+      "status": "passed"
+    },
+    {
+      "check": "svg_valid:pca",
+      "status": "passed"
+    },
+    {
+      "check": "png_valid:pca",
+      "status": "passed",
+      "detail": {
+        "pixels": [
+          1800,
+          1332
+        ]
+      }
+    },
+    {
+      "check": "svg_valid:volcano",
+      "status": "passed"
+    },
+    {
+      "check": "png_valid:volcano",
+      "status": "passed",
+      "detail": {
+        "pixels": [
+          1800,
+          1332
+        ]
+      }
+    },
+    {
+      "check": "svg_valid:heatmap",
+      "status": "passed"
+    },
+    {
+      "check": "png_valid:heatmap",
+      "status": "passed",
+      "detail": {
+        "pixels": [
+          1800,
+          1638
+        ]
+      }
+    },
+    {
+      "check": "svg_valid:crispld2",
+      "status": "passed"
+    },
+    {
+      "check": "png_valid:crispld2",
+      "status": "passed",
+      "detail": {
+        "pixels": [
+          1800,
+          1332
+        ]
+      }
+    },
+    {
+      "check": "python_sources_parse",
+      "status": "passed"
+    }
+  ],
+  "dispersion_optimizer_fallbacks": {
+    "gene_wise_dispersion_optimizer_fallbacks": 111,
+    "MAP_dispersion_optimizer_fallbacks": 7
+  },
+  "visual_review": "All four latest PNG figures inspected; labels, margins and data legends checked.",
+  "R_counterpart": "Included but not executed; R is unavailable. Executed outputs are from PyDESeq2.",
+  "statistical_limit": "Four paired donors, residual df=3; low-df dispersion-prior warning retained.",
+  "not_claimed": [
+    "clinical validation",
+    "external replication",
+    "native-R reproduction"
+  ]
+}
